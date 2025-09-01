@@ -1,0 +1,30 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset
+Churn_Modelling.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.DS_Store
+*.log
+*.bak
+*.swp
+
+# Virtual environments
+*.venv/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints/
