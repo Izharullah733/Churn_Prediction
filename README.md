@@ -13,8 +13,11 @@ Note: Download Churn_Modelling.csv and place it in the project directory or upda
 **Project Structure**
 
 **bank_churn_prediction.py:** Main script for data preprocessing, feature engineering, model training, evaluation, and visualization.
+
 **requirements.txt:** Lists required Python libraries.
+
 **.gitignore:** Specifies files and directories to exclude from version control.
+
 **README.md:** This file, providing project details and instructions.
 
 **Prerequisites**
@@ -49,12 +52,16 @@ Uses Logistic Regression coefficients to identify key churn drivers (e.g., Age, 
 
 **Models:**
 **Machine Learning:** Logistic Regression, Naive Bayes, KNN.
+
 **Deep Learning:** Simple ANN and tuned DNN (optimized with Optuna for high recall).
 
 
 **Visualizations:**
+
 Feature importance bar plot.
+
 Confusion matrices for each model.
+
 Bar plots comparing model performance (Accuracy, Precision, Recall, F1 Score, ROC AUC).
 
 
@@ -64,19 +71,26 @@ Bar plots comparing model performance (Accuracy, Precision, Recall, F1 Score, RO
 
 
 The tuned DNN achieves the highest accuracy (85.4%), precision (62.6%), and F1 Score (63.2%), with a strong recall (63.9%), making it effective for identifying churned customers.
+
 **Key Factors Driving Customer Churn**
 Based on Logistic Regression coefficients, the top factors influencing churn are:
 
 **Age:** 0.871169 (Older customers are more likely to churn)
+
 **Balance:** 0.316488 (Higher balances correlate with churn)
+
 **Geography:** 0.109871 (Certain regions show higher churn rates)
+
 **EstimatedSalary:** 0.034020
+
 **HasCrCard:** 0.018192
 
 **Visualizations**
 
 Feature Importance: Bar plot showing the impact of each feature on churn.
+
 Confusion Matrices: Display true positives, false positives, etc., for each model.
+
 Model Comparison: Bar plots for Accuracy, Precision, Recall, F1 Score, and ROC AUC.
 
 
@@ -88,6 +102,3 @@ Implement cross-validation for more robust evaluation.
 Optimize DNN further with additional layers or advanced architectures (e.g., LSTM).
 
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
-For questions or feedback, reach out via GitHub Issues or contact Izharullah733.
